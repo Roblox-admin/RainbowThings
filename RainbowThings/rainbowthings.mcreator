@@ -1,0 +1,262 @@
+{
+  "mod_elements": [
+    {
+      "name": "RainbowBlockMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_block_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Re",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rainbowthings/models/item/re.json",
+          "src/main/java/mod/netpix/rainbowthings/item/ReItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnimRe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_re",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/rainbowthings/item/AnimReItem.java",
+          "src/main/resources/assets/rainbowthings/models/item/anim_re.json"
+        ]
+      }
+    },
+    {
+      "name": "RedEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rainbowthings/models/item/red_em.json",
+          "src/main/java/mod/netpix/rainbowthings/item/RedEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OranEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oran_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rainbowthings/models/item/oran_em.json",
+          "src/main/java/mod/netpix/rainbowthings/item/OranEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YellEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yell_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rainbowthings/models/item/yell_em.json",
+          "src/main/java/mod/netpix/rainbowthings/item/YellEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LBEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lb_em",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/rainbowthings/item/LBEmItem.java",
+          "src/main/resources/assets/rainbowthings/models/item/lb_em.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rainbowthings/models/item/blue_em.json",
+          "src/main/java/mod/netpix/rainbowthings/item/BlueEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrimEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crim_em",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/rainbowthings/item/CrimEmItem.java",
+          "src/main/resources/assets/rainbowthings/models/item/crim_em.json"
+        ]
+      }
+    },
+    {
+      "name": "AnimReR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_re_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rainbowthings/recipe/anim_re_r.json"
+        ]
+      }
+    },
+    {
+      "name": "AnimRB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_rb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rainbowthings/loot_table/blocks/anim_rb.json",
+          "src/main/java/mod/netpix/rainbowthings/block/AnimRBBlock.java",
+          "src/main/resources/assets/rainbowthings/models/item/anim_rb.json",
+          "src/main/resources/assets/rainbowthings/blockstates/anim_rb.json",
+          "src/main/resources/assets/rainbowthings/models/block/anim_rb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rainbowthings/loot_table/blocks/rb.json",
+          "src/main/resources/assets/rainbowthings/blockstates/rb.json",
+          "src/main/resources/assets/rainbowthings/models/item/rb.json",
+          "src/main/resources/assets/rainbowthings/models/block/rb.json",
+          "src/main/java/mod/netpix/rainbowthings/block/RbBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AnimRBR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_rbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rainbowthings/recipe/anim_rb_r.json"
+        ]
+      }
+    },
+    {
+      "name": "RbR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rb_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rainbowthings/recipe/rb_r.json"
+        ]
+      }
+    },
+    {
+      "name": "ReR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rainbowthings/recipe/re_r.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.rb.rb": "Радужный блок",
+      "item_group.rb.rainbow_block_mod": "Rainbow Block Mod",
+      "block.rainbowblock.rb": "Радужный блок",
+      "item_group.rainbowblock.rainbow_block_mod": "Rainbow things",
+      "item.rainbowblock.re": "Радужный изумруд",
+      "item.rainbowblock.anim_re": "Переливающийся радужный изумруд",
+      "item.rainbowblock.red_em": "Красный изумруд",
+      "item.rainbowblock.oran_em": "Оранжевый изумруд",
+      "item.rainbowblock.yell_em": "Желтый изумруд",
+      "item.rainbowblock.lb_em": "Голубой изумруд ",
+      "item.rainbowblock.blue_em": "Синий изумруд",
+      "item.rainbowblock.crim_em": "Малиновый изумруд",
+      "item_group.rainbowthings.rainbow_block_mod": "Rainbow things",
+      "item.rainbowthings.re": "Радужный изумруд",
+      "item.rainbowthings.anim_re": "Анимированный радужный изумруд",
+      "item.rainbowthings.red_em": "Красный изумруд",
+      "item.rainbowthings.oran_em": "Оранжевый изумруд",
+      "item.rainbowthings.yell_em": "Желтый изумруд",
+      "item.rainbowthings.lb_em": "Голубой изумруд ",
+      "item.rainbowthings.blue_em": "Синий изумруд",
+      "item.rainbowthings.crim_em": "Малиновый изумруд",
+      "block.rainbowthings.anim_rb": "Анимированный радужный блок",
+      "block.rainbowthings.rb": "Радужный блок"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/mod/netpix/rainbowthings/init/RainbowthingsModBlocks.java",
+      "src/main/java/mod/netpix/rainbowthings/init/RainbowthingsModItems.java",
+      "src/main/java/mod/netpix/rainbowthings/init/RainbowthingsModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/mod/netpix/rainbowthings/RainbowthingsMod.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rainbowthings",
+    "modName": "Радужный мод",
+    "version": "1.0.0",
+    "description": "Этот мод добавляет радужные вещи.",
+    "author": "про супер игрок",
+    "websiteURL": "https://github.com/Roblox-admin/RainbowThings",
+    "license": "PPL3",
+    "serverSideOnly": false,
+    "modPicture": "modlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Rainbow things by про супер игрок",
+    "modElementsPackage": "mod.netpix.rainbowthings"
+  },
+  "mcreatorVersion": 202600230420
+}

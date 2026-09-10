@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rainbowthings:block/rb_texture",
+    "particle": "rainbowthings:block/rb_texture"
+  },
+  "render_type": "solid"
+}

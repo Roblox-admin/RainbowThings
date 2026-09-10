@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "rainbowthings:anim_rb"
+    }
+  },
+  "result": {
+    "id": "rainbowthings:anim_re",
+    "count": 9
+  }
+}
