@@ -1,0 +1,38 @@
+/playsound netpixelmod:bg1
+/playsound netpixelmod:bg2
+/playsound netpixelmod:bg3
+/stopsound
+/stopsound @a
+/playsound netpixelmod:bg3
+/playsound netpixelmod:desph
+/stopsound @a
+/playsound netpixelmod:idk
+/playsound netpixelmod:desph
+/stopsound @a
+/playsound netpixelmod:raintaco
+/stopsound @a
+/playsound netpixelmod:recroommms
+/stopsound @a
+/playsound netpixelmod:sal
+/stopsound @a
+/playsound netpixelmod:tacobot
+/stopsound @a
+/playsound netpixelmod:sal
+/stopsound
+/stopsound @a
+/playsound netpixelmod:recroom
+/stopsound @a
+/playsound netpixelmod:recroom
+/stopsound @a
+/time set night
+/time set day
+/time set night
+/time set day
+/time set night
+/time set day
+/time set night
+/time set day
+/time set night
+/time set day
+/time set night
+/time set day

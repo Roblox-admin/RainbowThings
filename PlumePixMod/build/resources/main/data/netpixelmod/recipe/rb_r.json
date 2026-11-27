@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "netpixelmod:re"
+    }
+  },
+  "result": {
+    "id": "netpixelmod:rb",
+    "count": 1
+  }
+}

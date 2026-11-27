@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="PPL3"
+
+[[mods]]
+modId="netpixelmod"
+version="2.0.3"
+displayName="PlumePix Mod Pro"
+displayURL="https://github.com/Roblox-admin/RainbowThings"
+logoFile="logo.png"
+credits="PlumePix Mod by \u043F\u0440\u043E \u0441\u0443\u043F\u0435\u0440 \u0438\u0433\u0440\u043E\u043A"
+authors="\u043F\u0440\u043E \u0441\u0443\u043F\u0435\u0440 \u0438\u0433\u0440\u043E\u043A"
+description="\u042D\u0442\u043E\u0442 \u043C\u043E\u0434 \u043C\u043D\u043E\u0433\u043E \u0447\u0435\u0433\u043E \u0434\u043E\u0431\u0430\u0432\u043B\u044F\u0435\u0442."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.netpixelmod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.232,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.netpixelmod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

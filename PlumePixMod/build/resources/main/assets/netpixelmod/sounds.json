@@ -1,0 +1,74 @@
+{
+  "raintaco": {
+    "sounds": [
+      {
+        "name": "netpixelmod:rainingtacos",
+        "stream": false
+      }
+    ]
+  },
+  "sal": {
+    "sounds": [
+      {
+        "name": "netpixelmod:sunshine-and-laughter",
+        "stream": false
+      }
+    ]
+  },
+  "tacobot": {
+    "sounds": [
+      {
+        "name": "netpixelmod:tacobot-3000",
+        "stream": false
+      }
+    ]
+  },
+  "desph": {
+    "sounds": [
+      {
+        "name": "netpixelmod:fizika-razrushieniia",
+        "stream": false
+      }
+    ]
+  },
+  "idk": {
+    "sounds": [
+      {
+        "name": "netpixelmod:khz-chto",
+        "stream": false
+      }
+    ]
+  },
+  "bg1": {
+    "sounds": [
+      {
+        "name": "netpixelmod:1",
+        "stream": false
+      }
+    ]
+  },
+  "bg2": {
+    "sounds": [
+      {
+        "name": "netpixelmod:2",
+        "stream": false
+      }
+    ]
+  },
+  "bg3": {
+    "sounds": [
+      {
+        "name": "netpixelmod:3",
+        "stream": false
+      }
+    ]
+  },
+  "recroom": {
+    "sounds": [
+      {
+        "name": "netpixelmod:output",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "mod_elements": [
+    {
+      "name": "RainbowBlockMod",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rainbow_block_mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Re",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/re.json",
+          "src/main/java/mod/netpix/plumepixmod/item/ReItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnimRe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_re",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/AnimReItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/anim_re.json"
+        ]
+      }
+    },
+    {
+      "name": "RedEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_em",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/RedEmItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/red_em.json"
+        ]
+      }
+    },
+    {
+      "name": "OranEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oran_em",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/OranEmItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/oran_em.json"
+        ]
+      }
+    },
+    {
+      "name": "YellEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yell_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/yell_em.json",
+          "src/main/java/mod/netpix/plumepixmod/item/YellEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LBEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lb_em",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/LBEmItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/lb_em.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/blue_em.json",
+          "src/main/java/mod/netpix/plumepixmod/item/BlueEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "CrimEm",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crim_em",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/crim_em.json",
+          "src/main/java/mod/netpix/plumepixmod/item/CrimEmItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnimReR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_re_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/netpixelmod/recipe/anim_re_r.json"
+        ]
+      }
+    },
+    {
+      "name": "AnimRB",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_rb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/block/anim_rb.json",
+          "src/main/java/mod/netpix/plumepixmod/block/AnimRBBlock.java",
+          "src/main/resources/assets/netpixelmod/blockstates/anim_rb.json",
+          "src/main/resources/assets/netpixelmod/models/item/anim_rb.json",
+          "src/main/resources/data/netpixelmod/loot_table/blocks/anim_rb.json"
+        ]
+      }
+    },
+    {
+      "name": "Rb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rb",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/rb.json",
+          "src/main/resources/assets/netpixelmod/models/block/rb.json",
+          "src/main/resources/assets/netpixelmod/blockstates/rb.json",
+          "src/main/resources/data/netpixelmod/loot_table/blocks/rb.json",
+          "src/main/java/mod/netpix/plumepixmod/block/RbBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "AnimRBR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anim_rbr",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/netpixelmod/recipe/anim_rb_r.json"
+        ]
+      }
+    },
+    {
+      "name": "RbR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rb_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/netpixelmod/recipe/rb_r.json"
+        ]
+      }
+    },
+    {
+      "name": "ReR",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re_r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/netpixelmod/recipe/re_r.json"
+        ]
+      }
+    },
+    {
+      "name": "Ppmmoney",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ppmmoney",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Odinr",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odinr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/odinr.json",
+          "src/main/java/mod/netpix/plumepixmod/item/OdinrItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dvar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dvar",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/DvarItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/dvar.json"
+        ]
+      }
+    },
+    {
+      "name": "Trir",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trir",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/TrirItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/trir.json"
+        ]
+      }
+    },
+    {
+      "name": "Pyatr",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyatr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/pyatr.json",
+          "src/main/java/mod/netpix/plumepixmod/item/PyatrItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Desyatr",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desyatr",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/netpixelmod/models/item/desyatr.json",
+          "src/main/java/mod/netpix/plumepixmod/item/DesyatrItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Stor",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stor",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/StorItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/stor.json"
+        ]
+      }
+    },
+    {
+      "name": "Tisyachyar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tisyachyar",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/TisyachyarItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/tisyachyar.json"
+        ]
+      }
+    },
+    {
+      "name": "Pyattisyachr",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pyattisyachr",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/PyattisyachrItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/pyattisyachr.json"
+        ]
+      }
+    },
+    {
+      "name": "MoneyPack15K",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_pack_15_k",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/item/MoneyPack15KItem.java",
+          "src/main/resources/assets/netpixelmod/models/item/money_pack_15_k.json"
+        ]
+      }
+    },
+    {
+      "name": "LiquidRainbow",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_rainbow",
+      "metadata": {
+        "files": [
+          "src/main/java/mod/netpix/plumepixmod/fluid/LiquidRainbowFluid.java",
+          "src/main/resources/assets/netpixelmod/models/item/liquid_rainbow_bucket.json",
+          "src/main/java/mod/netpix/plumepixmod/block/LiquidRainbowBlock.java",
+          "src/main/java/mod/netpix/plumepixmod/fluid/types/LiquidRainbowFluidType.java",
+          "src/main/java/mod/netpix/plumepixmod/item/LiquidRainbowItem.java",
+          "src/main/resources/assets/netpixelmod/blockstates/liquid_rainbow.json",
+          "src/main/resources/assets/netpixelmod/models/block/liquid_rainbow.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "raintaco",
+      "files": [
+        "rainingtacos"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "sal",
+      "files": [
+        "sunshine-and-laughter"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tacobot",
+      "files": [
+        "tacobot-3000"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "desph",
+      "files": [
+        "fizika-razrushieniia"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "idk",
+      "files": [
+        "khz-chto"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "bg1",
+      "files": [
+        "1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "bg2",
+      "files": [
+        "2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "bg3",
+      "files": [
+        "3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "recroom",
+      "files": [
+        "output"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~LiquidRainbow@CUSTOM:LiquidRainbow"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.rb.rb": "Радужный блок",
+      "item_group.rb.rainbow_block_mod": "Rainbow Block Mod",
+      "block.rainbowblock.rb": "Радужный блок",
+      "item_group.rainbowblock.rainbow_block_mod": "Rainbow things",
+      "item.rainbowblock.re": "Радужный изумруд",
+      "item.rainbowblock.anim_re": "Переливающийся радужный изумруд",
+      "item.rainbowblock.red_em": "Красный изумруд",
+      "item.rainbowblock.oran_em": "Оранжевый изумруд",
+      "item.rainbowblock.yell_em": "Желтый изумруд",
+      "item.rainbowblock.lb_em": "Голубой изумруд ",
+      "item.rainbowblock.blue_em": "Синий изумруд",
+      "item.rainbowblock.crim_em": "Малиновый изумруд",
+      "item_group.rainbowthings.rainbow_block_mod": "Rainbow things",
+      "item.rainbowthings.re": "Радужный изумруд",
+      "item.rainbowthings.anim_re": "Анимированный радужный изумруд",
+      "item.rainbowthings.red_em": "Красный изумруд",
+      "item.rainbowthings.oran_em": "Оранжевый изумруд",
+      "item.rainbowthings.yell_em": "Желтый изумруд",
+      "item.rainbowthings.lb_em": "Голубой изумруд ",
+      "item.rainbowthings.blue_em": "Синий изумруд",
+      "item.rainbowthings.crim_em": "Малиновый изумруд",
+      "block.rainbowthings.anim_rb": "Анимированный радужный блок",
+      "block.rainbowthings.rb": "Радужный блок",
+      "subtitles.raintaco": "",
+      "subtitles.sal": "",
+      "subtitles.recroommms": "",
+      "subtitles.bg1": "",
+      "subtitles.tacobot": "",
+      "subtitles.desph": "",
+      "subtitles.idk": "",
+      "subtitles.bg2": "",
+      "subtitles.bg3": "",
+      "item_group.netpixelmod.rainbow_block_mod": "Мод NetPix",
+      "item.netpixelmod.re": "Радужный изумруд",
+      "item.netpixelmod.anim_re": "Анимированный радужный изумруд",
+      "item.netpixelmod.red_em": "Красный изумруд",
+      "item.netpixelmod.oran_em": "Оранжевый изумруд",
+      "item.netpixelmod.yell_em": "Желтый изумруд",
+      "item.netpixelmod.lb_em": "Голубой изумруд ",
+      "item.netpixelmod.blue_em": "Синий изумруд",
+      "item.netpixelmod.crim_em": "Малиновый изумруд",
+      "block.netpixelmod.anim_rb": "Анимированный радужный блок",
+      "block.netpixelmod.rb": "Радужный блок",
+      "subtitles.recroom": "",
+      "item_group.netpixelmod.ppmmoney": "NetPix/Деньги",
+      "item.netpixelmod.odinr": "1р",
+      "item.netpixelmod.dvar": "2р",
+      "item.netpixelmod.trir": "3р",
+      "item.netpixelmod.pyatr": "5р",
+      "item.netpixelmod.desyatr": "10р",
+      "item.netpixelmod.stor": "100р",
+      "item.netpixelmod.tisyachyar": "1 000р",
+      "item.netpixelmod.pyattisyachr": "5 000р",
+      "item.netpixelmod.money_pack_15_k": "Стопка купюр 5 000р (500 купюр)",
+      "item.netpixelmod.liquid_rainbow_bucket": "Жидкая радуга",
+      "block.netpixelmod.liquid_rainbow": "Liquid Rainbow",
+      "fluid_type.netpixelmod.liquid_rainbow": "Liquid Rainbow",
+      "fluid.netpixelmod.liquid_rainbow": "Liquid Rainbow"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/mod/netpix/plumepixmod/init/NetpixelmodModFluidTypes.java",
+      "src/main/java/mod/netpix/plumepixmod/init/NetpixelmodModFluids.java",
+      "src/main/java/mod/netpix/plumepixmod/init/NetpixelmodModBlocks.java",
+      "src/main/java/mod/netpix/plumepixmod/init/NetpixelmodModItems.java",
+      "src/main/java/mod/netpix/plumepixmod/init/NetpixelmodModSounds.java",
+      "src/main/java/mod/netpix/plumepixmod/init/NetpixelmodModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/netpixelmod/sounds.json",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/mod/netpix/plumepixmod/NetpixelmodMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "netpixelmod",
+    "modName": "PlumePix Mod Pro",
+    "version": "2.0.0",
+    "description": "Этот мод много чего добавляет.",
+    "author": "про супер игрок",
+    "websiteURL": "https://github.com/Roblox-admin/RainbowThings",
+    "license": "PPL3",
+    "serverSideOnly": false,
+    "modPicture": "modlogo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "PlumePix Mod by про супер игрок",
+    "modElementsPackage": "mod.netpix.plumepixmod"
+  },
+  "mcreatorVersion": 202600233518
+}
